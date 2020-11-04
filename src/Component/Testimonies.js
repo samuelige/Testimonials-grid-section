@@ -2,7 +2,9 @@
 import { v4 as uuidv4 } from 'uuid';
 import React, { useState, useEffect } from 'react'
 import TestimoniesCartItems from './Testimonies-Cart-Items';
-import './Testimonies.css'
+// import {ReactComponent as BgpatternQuotation} from '../images/bg-pattern-quotation.svg';
+// import car from './images/car.png'
+import './Testimonies.scss'
 
 const Testimonies = () => {
     const [state, setState] = useState(
